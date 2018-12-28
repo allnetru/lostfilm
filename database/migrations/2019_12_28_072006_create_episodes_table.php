@@ -21,7 +21,7 @@ class CreateEpisodesTable extends Migration
             $table->string('url');
             $table->tinyInteger('season')->nullable();
             $table->tinyInteger('episode')->nullable();
-            $table->string('keywords', 100)->nullable()->index();
+            $table->string('keywords', 150)->nullable()->index();
             $table->text('meta')->nullable();
             $table->date('released_at')->nullable()->index();
             $table->timestamps();
