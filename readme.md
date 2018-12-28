@@ -72,7 +72,7 @@ Coverage tests
 phpdbg -qrr ./vendor/bin/phpunit --coverage-html=./storage/coverage
 ```
 
-## Deploy
+## Serve
 ```
 php artisan serve
 ```

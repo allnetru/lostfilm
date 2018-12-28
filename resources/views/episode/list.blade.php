@@ -6,7 +6,7 @@
 
 @section('content')
     <div>
-        <form method="get" action=""><input type="text" name="query"></form>
+        <form method="get" action=""><input type="text" name="query" value="{{ $query }}"></form>
     </div>
 
     @if ($query)
