@@ -40,4 +40,10 @@ return [
         ],
     ],
 
+    'lostfilm' => [
+        'episodes' => [
+            'url' => env('LOSTFILM_EPISODES_URL', 'https://www.lostfilm.tv/new/'),
+        ],
+    ],
+
 ];
