@@ -21,8 +21,6 @@ class SiteParser extends AbstractParser
         $host = parse_url($url, PHP_URL_HOST);
         $path = parse_url($url, PHP_URL_PATH);
 
-        $body = null;
-
         $response = $this->client->get($url);
         $body = $response->getBody();
 
